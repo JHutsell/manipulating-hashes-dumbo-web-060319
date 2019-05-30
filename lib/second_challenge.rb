@@ -7,7 +7,10 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
+  result = []
+  groceries.values do |values|
+    result << values.flatten
+  end
+  result
 
 end
