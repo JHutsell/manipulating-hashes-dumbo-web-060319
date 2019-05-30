@@ -7,12 +7,6 @@ def second_challenge
   }
 
   #code your solution here!
-  result = []
-  groceries.values do |values|
-    values.each do |value|
-      result << value 
-    end
-  end
-  result
+  groceries.values.flatten
 
 end
